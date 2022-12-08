@@ -20,9 +20,12 @@
 - Editez le message du dernier commit pour corriger les fautes d'orthographe de votre message
 
 ## Exercice 4 : 
-- Supprimez du dernier commit, les modifications liées à la balise header qui n'avaient rien à faire là et que nous allons plutôt coller dans un commit de fix
-- Créer une branche dédiée au fix "fix/header-size" et appliquez-lui les modifications de la balise `header`, que vous commiterez
-- Allez sur main et mergez la branche "fix/header-size"
+
+- Dans la balise "header", remplacez la class "full" par une class "medium".
+- Commitez ce changement sans la balise "section".
+- Ce changement ne devrait pas apparaître dans cette branche. Supprimez-le commit.
+- Créer une branche dédiée au fix "fix/header-size" (cest une correction de main, donc attention à la source de la branche utilisée) et appliquez-lui le commit que vous venez de supprimer.
+- Allez sur main et mergez la branche "fix/header-size".
 
 ## Exercice 5 : 
 - Retournez sur la branche "feat/homepage-content"
