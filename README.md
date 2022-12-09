@@ -1,4 +1,4 @@
-# Formation GIT
+# Formation Git
 
 ## Exercice 1
 - Clonez le projet https://github.com/coopTilleuls/formation-git
@@ -24,7 +24,7 @@
 - Dans la balise "header", remplacez la class "full" par une class "medium".
 - Commitez ce changement sans la balise "section".
 - Ce changement ne devrait pas apparaître dans cette branche. Supprimez-le commit.
-- Créer une branche dédiée au fix "fix/header-size" (cest une correction de main, donc attention à la source de la branche utilisée) et appliquez-lui le commit que vous venez de supprimer.
+- Créer une branche dédiée au fix "fix/header-size" (c'est une correction de main, donc attention à la source de la branche utilisée) et appliquez-lui le commit que vous venez de supprimer.
 - Allez sur main et mergez la branche "fix/header-size".
 
 ## Exercice 5 : 
